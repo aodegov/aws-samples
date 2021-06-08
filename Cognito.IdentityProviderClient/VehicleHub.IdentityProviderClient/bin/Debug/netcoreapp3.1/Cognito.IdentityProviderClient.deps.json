@@ -1,0 +1,170 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v3.1",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Cognito.IdentityProviderClient/1.0.0": {
+        "dependencies": {
+          "AWSSDK.CognitoIdentityProvider": "3.7.0.30",
+          "Amazon.Extensions.CognitoAuthentication": "2.2.1",
+          "Microsoft.Extensions.Configuration": "5.0.0",
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0"
+        },
+        "runtime": {
+          "Cognito.IdentityProviderClient.dll": {}
+        }
+      },
+      "Amazon.Extensions.CognitoAuthentication/2.2.1": {
+        "dependencies": {
+          "AWSSDK.CognitoIdentity": "3.7.0.2",
+          "AWSSDK.CognitoIdentityProvider": "3.7.0.30"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Amazon.Extensions.CognitoAuthentication.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "AWSSDK.CognitoIdentity/3.7.0.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.31",
+          "AWSSDK.SecurityToken": "3.7.0.2"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.CognitoIdentity.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.2"
+          }
+        }
+      },
+      "AWSSDK.CognitoIdentityProvider/3.7.0.30": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.CognitoIdentityProvider.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.30"
+          }
+        }
+      },
+      "AWSSDK.Core/3.7.0.31": {
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.Core.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.31"
+          }
+        }
+      },
+      "AWSSDK.SecurityToken/3.7.0.2": {
+        "dependencies": {
+          "AWSSDK.Core": "3.7.0.31"
+        },
+        "runtime": {
+          "lib/netcoreapp3.1/AWSSDK.SecurityToken.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.7.0.2"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Configuration.Abstractions": "5.0.0",
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "5.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      },
+      "Microsoft.Extensions.Primitives/5.0.0": {
+        "runtime": {
+          "lib/netcoreapp3.0/Microsoft.Extensions.Primitives.dll": {
+            "assemblyVersion": "5.0.0.0",
+            "fileVersion": "5.0.20.51904"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Cognito.IdentityProviderClient/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Amazon.Extensions.CognitoAuthentication/2.2.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-YTCzWN2hnUU77rnZpVDZUqwhFtQkXDAVHGG9FcXAa6OkD/yO7imJRVyxs5UD9Q6vDSrUOVlHNNTUsALWB0rZ+Q==",
+      "path": "amazon.extensions.cognitoauthentication/2.2.1",
+      "hashPath": "amazon.extensions.cognitoauthentication.2.2.1.nupkg.sha512"
+    },
+    "AWSSDK.CognitoIdentity/3.7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fqWI5WQ+73qlnIK5KZ3peKMweX7nE8aj4uMX3t9OLAvjUP9HFDcb6N4EVn2ZXzqi35eR/LuqdwqxCHrFrUMjeA==",
+      "path": "awssdk.cognitoidentity/3.7.0.2",
+      "hashPath": "awssdk.cognitoidentity.3.7.0.2.nupkg.sha512"
+    },
+    "AWSSDK.CognitoIdentityProvider/3.7.0.30": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OzOELdhMro+9ucsOXg4KN+4nkSl95ii3OWA58QX1MfUW5HuND3JjrB2ycr229fdw29WqhtG0+uoxUGSkaQST3A==",
+      "path": "awssdk.cognitoidentityprovider/3.7.0.30",
+      "hashPath": "awssdk.cognitoidentityprovider.3.7.0.30.nupkg.sha512"
+    },
+    "AWSSDK.Core/3.7.0.31": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-C2vzPag+Rzb1hBiMUwRW+HQzIrsPxxKBk7EMX0AUxkApg36DOGXI1Aha4xpC0w5sWqRuQAJ3YW0Ihk1nPlBzKA==",
+      "path": "awssdk.core/3.7.0.31",
+      "hashPath": "awssdk.core.3.7.0.31.nupkg.sha512"
+    },
+    "AWSSDK.SecurityToken/3.7.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-OFZjQ+AM4tDP/gVpqHm2MOY2Ibr/3PfWTACc7nZEm1AjrBg514/n70+Ooo9mqzBVFwOv11+QbHvKxbR/+jHv8A==",
+      "path": "awssdk.securitytoken/3.7.0.2",
+      "hashPath": "awssdk.securitytoken.3.7.0.2.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-LN322qEKHjuVEhhXueTUe7RNePooZmS8aGid5aK2woX3NPjSnONFyKUc6+JknOS6ce6h2tCLfKPTBXE3mN/6Ag==",
+      "path": "microsoft.extensions.configuration/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-ETjSBHMp3OAZ4HxGQYpwyGsD8Sw5FegQXphi0rpoGMT74S4+I2mm7XJEswwn59XAaKOzC15oDSOWEE8SzDCd6Q==",
+      "path": "microsoft.extensions.configuration.abstractions/5.0.0",
+      "hashPath": "microsoft.extensions.configuration.abstractions.5.0.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Primitives/5.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-cI/VWn9G1fghXrNDagX9nYaaB/nokkZn0HYAawGaELQrl8InSezfe9OnfPZLcJq3esXxygh3hkq2c3qoV3SDyQ==",
+      "path": "microsoft.extensions.primitives/5.0.0",
+      "hashPath": "microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    }
+  }
+}
