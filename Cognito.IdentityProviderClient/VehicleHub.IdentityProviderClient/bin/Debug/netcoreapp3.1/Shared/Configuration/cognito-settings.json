@@ -1,9 +1,9 @@
 {
   "CognitoSettings": {
-    "poolId": "ca-central-1_fdWPXRnm8",
-    "clientId": "6t2vgg4eouio312gm1q1sj4ml5",
-    "clientScrt": "1a5t2q07t914kbh473o7cqqpkbe94pau1518geesnogu5aiffmpl",
-    "userId": "Anton.Odegov@coxautoinc.com",
-    "userPwd": "Oolisv007!"
+    "poolId": "<cognito profile id>",
+    "clientId": "<cognito client id>",
+    "clientScrt": "<cognito client secret>",
+    "userId": "<cognito user>",
+    "userPwd": "<cognito pass>"
   }
 }
