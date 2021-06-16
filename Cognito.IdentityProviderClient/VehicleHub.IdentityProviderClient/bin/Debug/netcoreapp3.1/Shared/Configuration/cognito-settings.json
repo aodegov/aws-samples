@@ -1,9 +1,0 @@
-{
-  "CognitoSettings": {
-    "poolId": "<cognito profile id>",
-    "clientId": "<cognito client id>",
-    "clientScrt": "<cognito client secret>",
-    "userId": "<cognito user>",
-    "userPwd": "<cognito pass>"
-  }
-}
